@@ -1,11 +1,138 @@
+/* html, body{
+    overflow: hidden;
+} */
+
+html{
+    scroll-behavior: smooth;
+    font-family: "MV boli";
+}
+
+body{
+    background-color: #00ff7d;
+}
+
+header{
+    background-color: #DEDEDECD;
+    /* position: fixed; */
+}
+
+header hr{
+    margin-top: 120px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    height: 2px;
+    width: 100VW;
+}
+
+.header_back{
+    top: 0 ;
+    left: 0;
+    background-color: #DEDEDECD;
+    position: fixed;
+    width: 100vw;
+    height: 20%;
+}
+
+.header_h1, .header_h2{
+    display: block;
+    padding-left: 15px;
+    margin: 0;
+    /* float: left; */
+}
+
+/* .header_h1{
+    padding-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 10%;
+    display: block;
+    float: left;
+} */
+
+/* .header_h2{
+    padding-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 7.5%;
+    display: block;
+    float: left;
+} */
+
+/* .header_text{
+    padding-left: 15px;
+    display: block;
+    float: left;
+} */
+
+/* .header_text h1{
+    font-size: 8%;
+} */
+
+/* .header_text h2{
+    font-size: 5%;
+} */
+
+.header_image{
+    display: block;
+    float: left;
+    width: 120px;
+}
+
+.header_image:hover{
+    background-color: #141414Cd;
+}
+
+/* header a, header h1, header h2{
+
+} */
+
 .home_btn{
     position: fixed;
     right: 5px;
     bottom: 5px;
-    border: solid 2px #0368;
+    border: solid 1px #0368;
     z-index: 99999999;
 }
 
-.pklist ul{
+.pklist ol a li{
     display: inline;
+    margin-right: 5px;
 }
+
+.pklist ol a{
+    text-decoration: none;
+    color: #0368;
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: solid 2.5px #141414;
+}
+
+.pklist ol a:hover{
+    text-decoration: underline;
+    color: #FFF;
+    background-color: #0368;
+}
+
+.pklist ol{
+    margin-top: 10px;
+    padding-top: 4px;
+    padding-left: 0;
+}
+
+.pklist{
+    padding-top: 120px;
+}
+
+/* .main_article{
+    overflow: auto;
+} */
+
+/* @media(max-width:500px){
+    .header_back{
+        height: 75px;
+    }
+    header a, header h1, header h2{
+        height: 75px;
+    }
+} */
