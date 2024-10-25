@@ -4,7 +4,7 @@ document.write(`
         <a href="./index.html">
             <img class="header_image" src="../../../../30image/10icon/gear.png" alt="Gear">
         </a>
-        <h1 class="header_h1">header text1</h1><!--<br>--><h2 class="header_h2">header text2</h2>
+        <h1 class="header_h1">SR Industrial Technology</h1><!--<br>--><h2 class="header_h2">Weather & Earthquakes</h2>
     </div>
     <hr>
     <div class="openbtn"><span></span><span></span><span></span></div>

@@ -181,28 +181,48 @@ video{
 
 /* ===============  =============== */
 
-/* .if_earthquakes{
+.if_weather{
+    margin-top: 95px;
+    height: 770px;
+}
+
+.if_weather2{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
     height: 750px;
-    padding-right: 5px;
-} */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*  */
+    /* transform: scale(0.65);
+    transform-origin: center; */
+}
+
+.if_earthquakes{
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* width: 80%; */
+    height: 520px;
+    /* padding-right: 5px; */
+}
 
 .if_earthquakes2{
-    /* display: block;
+    display: block;
     margin-left: auto;
-    margin-right: auto; */
-    width: 100%;
+    margin-right: auto;
+    width: 90%;
     height: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     /*  */
-    transform:scale(0.65);
+    /* transform:scale(0.65); */
     /* -moz-transform:scale(0.75);
     -webkit-transform:scale(0.75);
     -o-transform:scale(0.75);
     -ms-transform:scale(0.75); */
-    transform-origin: center;
+    /* transform-origin: center; */
     /* -moz-transform-origin: center;
     -webkit-transform-origin: center;
     -o-transform-origin: center;
