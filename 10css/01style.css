@@ -181,8 +181,23 @@ video{
 
 /* ===============  =============== */
 
-.if_weather{
+.if_clock{
     margin-top: 95px;
+    height: 300px;
+}
+
+.if_clock2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.if_weather{
+    /* margin-top: 95px; */
     height: 770px;
 }
 
