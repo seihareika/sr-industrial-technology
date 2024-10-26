@@ -107,7 +107,7 @@ footer{
     text-decoration: none;
     color: #0368;
     margin-top: 10px;
-    padding: 10px;
+    /* padding: 10px; */
     border-bottom: solid 2.5px #141414;
 }
 
@@ -118,7 +118,7 @@ footer{
 }
 
 .pklist ol{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding-top: 4px;
     padding-left: 0;
 }
@@ -170,31 +170,102 @@ footer{
 /* ====================           ==================== */
 /* ====================           ==================== */
 /* ====================           ==================== */
+
 /* ====================           ==================== */
+
+.if_clock{
+    margin-top: 86px;
+    height: 130px;
+}
+
+.if_clock2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* ====================           ==================== */
+
 /* ====================           ==================== */
+
+.if_weather{
+    /* height: 440px; */
+    position: relative;
+}
+
+.if_weatherleft{
+    display: block;
+    margin-right: 20px;
+    margin-left: 50px;
+    width: 45%;
+    height: 430px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    zoom: 0.50;
+    /* transform:scale(0.5); */
+    /* transform-origin: 0 0; */
+}
+
+.if_weatherright{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    /* float: right; */
+    margin-right: 50px;
+    margin-left: 20px;
+    width: 45%;
+    height: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    zoom: 0.45;
+    /* transform:scale(0.5); */
+    /* transform-origin: 0 0; */
+}
+
+/* ====================           ==================== */
+
+/* ====================           ==================== */
+
+.if_jorte{
+    position: fixed;
+    bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 87.5%;
+    height: 500px;
+    zoom: 0.85;
+}
+
 /* ====================           ==================== */
 
 /* ====================           ==================== */
 
 .if_earthquakes{
-    margin-top: 100px;
+    /* margin-top: 100px; */
     /* display: block; */
     /* margin-left: auto; */
     /* margin-right: auto; */
     /* width: 80%; */
-    height: 520px;
+    height: 250px;
     /* padding-right: 5px; */
 }
 
 .if_earthquakes2{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+    float: right;
+    /* margin-left: 50px; */
+    margin-top: 500px;
+    margin-right: 20px;
+    width: 45%;
     height: 500px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    zoom: 0.5;
+    padding-top: 20px;
+    padding-bottom: 20px;
     /*  */
     /* transform:scale(0.65); */
     /* -moz-transform:scale(0.75);
