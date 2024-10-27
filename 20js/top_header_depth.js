@@ -17,7 +17,8 @@ document.write(`
                         <ul>
                             <a href="../index.html"><li><p class="p1">Top page</p></li></a>
                             <br><hr><br>
-                            <a href=""><li><p class="p2">Sub page</p></li></a>
+                            <a href="../notfound.html"><li><p class="p2">Sub page</p></li></a>
+                            <a href="./50contents/99others/10natural_phenomenon/00weather_earthquakes/index.html"><li><p class="p2">Weather & Earthquakes</p></li></a>
                         </ul>
                     </div>
                 </nav>
