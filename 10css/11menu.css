@@ -43,7 +43,7 @@
   text-align: right;
 }
 
-#g-nav .p1{
+#g-nav .p1, .menu_p1{
   color: #141414;
   text-align: left;
   font-size: 25px;
@@ -55,7 +55,7 @@
   font-weight: bold;
 }
 
-#g-nav .p2{
+#g-nav .p2, .menu_p2{
   color: #141414;
   text-align: left;
   font-size: 15px;
