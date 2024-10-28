@@ -101,17 +101,19 @@ footer{
 .pklist ol a li{
     display: inline;
     margin-right: 5px;
+    padding-right: 10px;
+    font-size: 35px;
 }
 
 .pklist ol a{
     text-decoration: none;
     color: #0368;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* padding: 10px; */
     border-bottom: solid 2.5px #141414;
 }
 
-.pklist ol a:hover{
+.pklist ol a li:hover{
     text-decoration: underline;
     color: #FFF;
     background-color: #0368;
@@ -119,7 +121,7 @@ footer{
 
 .pklist ol{
     /* margin-top: 10px; */
-    padding-top: 4px;
+    /* padding-top: 4px; */
     padding-left: 0;
 }
 
@@ -131,9 +133,11 @@ footer{
 
 /* ====================           ==================== */
 
-
-
 /* ====================           ==================== */
+
+.main_article{
+    margin-top: 153.5px;
+}
 
 /* ====================           ==================== */
 
@@ -306,6 +310,9 @@ footer{
 /* ====================           ==================== */
 
 @media (max-width:932px){
+    .main_article{
+        margin-top: 101px;
+    }
     .openbtn_top{
         width: 25px;
         height: 22px;
