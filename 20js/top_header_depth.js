@@ -19,6 +19,9 @@ document.write(`
                             <br><hr><br>
                             <a href="../notfound.html"><li><p class="p2">Sub page</p></li></a>
                             <a href="./50contents/99others/10natural_phenomenon/00weather_earthquakes/index.html"><li><p class="p2">Weather & Earthquakes</p></li></a>
+                            <a href="./50contents/10gadget/index.html"><li><p class="p2">Gadget Top Page</p></li></a>
+                            <a href="./50contents/10gadget/00ap/index.html"><li><p class="p2">Gadget for Apple Device Top Page</p></li></a>
+                            <a href=""><li><p class="p2"></p></li></a>
                         </ul>
                     </div>
                 </nav>
