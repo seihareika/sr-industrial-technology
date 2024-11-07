@@ -17,7 +17,7 @@ document.write(`
                 <ul>
                     <a href="../../../index.html"><li><p class="menu_p1">Top page</p></li></a>
                     <br><hr><br>
-                    <a href="../../../notfound.html"><li><p class="menu_p2">Sub page</p></li></a>
+                    <a href="./00ap/index.html"><li><p class="menu_p2">Gadget for Apple Device Top Page</p></li></a>
                 </ul>
             </div>
         </nav>

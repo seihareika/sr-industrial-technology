@@ -2,8 +2,8 @@
 html{
     /* ==================== background color config style ==================== */
     /* background-color: aquamarine; */
-    background: -moz-linear-gradient(top, #677efa 0%, #8e54db 100%);/*古いFireFox向け*/
-    background: -webkit-linear-gradient(top, #677efa 0%, #8e54db 100%);/*古いSafariなど向け*/
+    background: -moz-linear-gradient(top, #677efa 0%, #8e54db 135%);/*古いFireFox向け*/
+    background: -webkit-linear-gradient(top, #677efa 0%, #8e54db 135%);/*古いSafariなど向け*/
     filter:progid:DXImageTransform.Microsoft.Gradient(
         startColorstr='#677efa',
         endColorstr='#8e54db',
@@ -17,6 +17,9 @@ html{
     font-weight: bold;
     font-family: "MV boli";
     /* ====================                   ==================== */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 250vh;
 }
 
 html:hover{
@@ -27,10 +30,10 @@ html:hover{
 
 /* ====================                   ==================== */
 
-body{
-    height: 100%;
+/* body{
+    height: 200vh;
     width: 100%;
-}
+} */
 
 /* ====================                   ==================== */
 
@@ -52,6 +55,17 @@ body{
     height: 100px;
     background-color: #036D;
     z-index: 999;
+}
+
+.header_image{
+    background-color: #7FFFD440;
+    width: 100px;
+    display: block;
+    float: left;
+}
+
+.header_image:hover{
+    background-color: #7FFFD4;
 }
 
 header svg{
@@ -213,7 +227,7 @@ header h2{
 #g-nav{
     position: fixed;
     z-index: 99999999 !important;
-    top: 52px;
+    top: 0;
     right: -100%;
     list-style-type: none;
     width: 50%;
@@ -333,7 +347,26 @@ header h2{
 .main{
     font-size: 2rem;
     /* =====  ===== */
-    height: 100%;
+    /* height: 100vh; */
+}
+
+.main_aa{
+    font-size: 25px;
+    color: #141414;
+    text-decoration: none;
+    cursor: help;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.main_aa:hover{
+    background-color: #0F84;
+    border: #8e54db 3px dotted;
+}
+
+.main_ai{
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .apple_main{
@@ -356,8 +389,21 @@ header h2{
 
 /* ====================                  ==================== */
 
+ul{
+    list-style-type: none;
+}
+
+.fa_main{
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+
+.nav_main{
+    text-decoration: none;
+}
+
 .li_head{
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     font-weight: bold;
     /*  */
     border-bottom: 1px dotted #141414;
@@ -372,10 +418,31 @@ header h2{
 }
 
 .li_main{
-    padding: 0.5px 0;
-    font-size: 0.9rem;
+    padding: 1px 0;
+    font-size: 1.9rem;
     font-weight: bold;
     margin-left: 75px;
+    width: 350px;
+}
+
+.li_main_a{
+    text-decoration: none;
+    color: #141414;
+    cursor: wait;
+}
+
+.li_main:hover{
+    background-color: #0F8;
+}
+
+.nf_404{
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 125px;
+    display: block;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    overflow: hidden;
 }
 
 /* ==================== footer style ==================== */
@@ -395,6 +462,16 @@ footer{
 footer p{
     font-weight: bold;
     font-size: 0.8rem;
+}
+
+/* ====================                  ==================== */
+
+/* ====================                  ==================== */
+
+@media(max-width:430px){
+    html, body, .main{
+        width: 100%;
+    }
 }
 
 /* ====================                  ==================== */
